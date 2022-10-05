@@ -4,8 +4,8 @@
 
 ### Environment Setup
 * Linux and MacOS are encouraged to use. If you use Windows OS, see [how to work as linux
-in Windows]()
-* Python >= 3.9 is required. If you need help to install python3.9, see this [doc]().
+in Windows](https://github.com/inspired-co/ExplainaBoard-Walkthrough/blob/main/roles/instructors/install_helper.md#how-to-use-linux-in-windows-os)
+* Python >= 3.9 is required. If you need help to install python3.9, see this [doc](https://github.com/inspired-co/ExplainaBoard-Walkthrough/blob/main/roles/instructors/install_helper.md#how-to-install-python39-in-linux).
 
 
 ### ExplainaBoard Install
@@ -27,12 +27,12 @@ If `ExplainaBoard CLI` is printed, congratulation, you make it!
 ## ExplainaBoard Submission for Homework1
 
 #### Step 1: System output Preparation
-You need arrange predicted results (e.g., positive or negative) from your system
- on test or validation in to a text file, where
+You need organize the predicted results (e.g., positive or negative) from your system
+ on test or validation into a text file, where
  * each row represent a predicted label
  * the number of rows should equals the number of samples in test or validation set.
 
-Here is one [example output file]() of a baseline system.
+Here is one [example output file](./data/baseline_predictions.txt) of a baseline system.
 
 
 #### Step 2: System submission
@@ -52,8 +52,8 @@ are the following options.
 
 * `--system_name` a name that you can choose for your system. Your final system name
   will be `anlp_{studentid}_{system_name}`.
-* `--dataset` the dataset name (sst/cfimdb).
-* `--split` the split (dev/test).
+* `--dataset` the dataset name (e.g., mr).
+* `--split` the split (validation/test).
 * `--output` the system output you're uploading.
 * `--public` if you want your output listed on the public site so people in the class
   can compare and contrast with it add this flag. But it is off by default (and has no
