@@ -51,7 +51,7 @@ Now you can upload the outputs of your model with the `upload_results.py` script
 are the following options.
 
 * `--system_name` a name that you can choose for your system. Your final system name
-  will be `anlp_{studentid}_{system_name}`.
+  will be `fudan_nlp_{studentid}_{system_name}`.
 * `--dataset` the dataset name (e.g., mr).
 * `--split` the split (validation/test).
 * `--output` the system output you're uploading.
