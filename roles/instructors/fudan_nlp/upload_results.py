@@ -58,7 +58,7 @@ def main():
 
     # Preset values by Instructor
     course_name = "fudan_nlp"
-    shared_users = ['neubig@gmail.com']
+    shared_users = ['stefanpengfei@gmail.com']
 
     # Preset values
     task = TaskType.text_classification
@@ -68,12 +68,10 @@ def main():
     system_name = f'{course_name}_{student_id}_{args.system_name}'
     online_split = 'validation' if args.split == 'dev' else args.split
 
-    # Convert file
-    new_file = convert_file(args.output, label_mapping)
 
     # Do upload
     system_output = SystemOutputProps(
-        data=new_file,
+        data=args.output,
         file_type='text',
     )
     metadata = SystemMetadata(
@@ -88,6 +86,7 @@ def main():
         system_details={},
     )
     metadata.dataset_metadata_id = generate_dataset_id(course_name, args.dataset)
+    print(metadata.dataset_metadata_id)
     create_props = SystemCreateProps(metadata=metadata, system_output=system_output)
     client_config = Config(
         email,
@@ -105,8 +104,6 @@ def main():
     except Exception:
         print(f"failed to post system {system_name}")
 
-    # delete new_file
-    os.remove(new_file)
 
 if __name__ == "__main__":
     main()
