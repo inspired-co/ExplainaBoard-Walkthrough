@@ -58,7 +58,7 @@ def main():
 
     # Preset values by Instructor
     course_name = "fudan_nlp"
-    shared_users = ['stefanpengfei@gmail.com']
+    shared_users = ['blzhu20@fudan.edu.cn']
 
     # Preset values
     task = TaskType.text_classification

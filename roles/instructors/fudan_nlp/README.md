@@ -1,4 +1,4 @@
-# ExplainaBoard for Fudan NLP Class
+# ExplainaBoard for Fudan NLP Class [[Chinese]](README_zh.md)
 
 
 
@@ -32,7 +32,7 @@ You need organize the predicted results (e.g., positive or negative) from your s
  * each row represent a predicted label
  * the number of rows should equals the number of samples in test or validation set.
 
-Here is one [example output file](./data/baseline_predictions.txt) of a baseline system.
+Here is one [example output file](./data/mr-test-baseline.txt) of a baseline system.
 
 
 #### Step 2: System submission
