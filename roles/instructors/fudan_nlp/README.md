@@ -4,8 +4,8 @@
 
 ### Environment Setup
 * Linux and MacOS are encouraged to use. If you use Windows OS, see [how to work as linux
-in Windows](https://github.com/inspired-co/ExplainaBoard-Walkthrough/blob/main/roles/instructors/install_helper.md#how-to-use-linux-in-windows-os)
-* Python >= 3.9 is required. If you need help to install python3.9, see this [doc](https://github.com/inspired-co/ExplainaBoard-Walkthrough/blob/main/roles/instructors/install_helper.md#how-to-install-python39-in-linux).
+in Windows](https://github.com/inspired-co/Inspired-walkthroughs/blob/main/roles/instructors/install_helper.md#how-to-use-linux-in-windows-os)
+* Python >= 3.9 is required. If you need help to install python3.9, see this [doc](https://github.com/inspired-co/Inspired-walkthroughs/blob/main/roles/instructors/install_helper.md#how-to-install-python39-in-linux).
 
 
 ### ExplainaBoard Install

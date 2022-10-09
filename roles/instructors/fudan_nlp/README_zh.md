@@ -3,9 +3,9 @@
 
 
 ### 环境设置
-* 建议使用Linux和MacOS。如果您使用Windows操作系统, 可以参照[这个教程](https://github.com/inspired-co/ExplainaBoard-Walkthrough/blob/main/roles/instructors/install_helper.md#how-to-use-linux-in-windows-os)这个教程，
+* 建议使用Linux和MacOS。如果您使用Windows操作系统, 可以参照[这个教程](https://github.com/inspired-co/Inspired-walkthroughs/blob/main/roles/instructors/install_helper.md#how-to-use-linux-in-windows-os)这个教程，
 实现在Windows上对Linux系统的安装
-* Python >= 3.9是必需的。如果您需要帮助来安装python3.9, 参照 [这个教程](https://github.com/inspired-co/ExplainaBoard-Walkthrough/blob/main/roles/instructors/install_helper.md#how-to-install-python39-in-linux).
+* Python >= 3.9是必需的。如果您需要帮助来安装python3.9, 参照 [这个教程](https://github.com/inspired-co/Inspired-walkthroughs/blob/main/roles/instructors/install_helper.md#how-to-install-python39-in-linux).
 
 
 ### ExplainaBoard 安装
@@ -30,7 +30,7 @@ python -m explainaboard_client.__main__
 * 每一行代表一个预测标签(positive 或者 negative)
 * 行数应等于测试或验证集中的样本数。
 
-这里有个[样例]((./data/mr-test-baseline.txt))。
+这里有个[样例](./data/mr-test-baseline.txt)。
 
 
 
