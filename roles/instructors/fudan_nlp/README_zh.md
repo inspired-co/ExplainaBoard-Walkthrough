@@ -47,7 +47,7 @@ export EB_STUDENT_ID=your_student_id
 
 现在您可以使用`upload_results.py`脚本上传模型的输出。有以下选项。
 * `--system_name` 模型的名字。最终的模型名称为：`fudan_nlp_ {studentid} _ {system_name}`。
-* `--dataset` 数据集名称(作业一里应为：`mr`)。
+* `--dataset` 数据集名称(作业一里应为：`movie_review`)。
 * `--split` 拆分(验证/测试)。
 * `--output` 你上传的模型预测结果文件。
 * `--public` 如果你想让你的结果为公开可见，这样班上的人可以与它进行比较和对比，就添加这个标志。但是默认情况下它是关闭的(并且没有
@@ -59,11 +59,14 @@ export EB_STUDENT_ID=your_student_id
 下面是一个上传系统名为`baseline`的模型预测结果文件示例。
 
 ```
-python upload_results.py --system_name baseline --dataset mr --split validation --output mr-dev-output.txt
-python upload_results.py --system_name baseline --dataset mr --split test --output mr-test-output.txt
+python upload_results.py --system_name baseline --dataset movie_review --split validation --output mr-dev-output.txt
+python upload_results.py --system_name baseline --dataset movie_review --split test --output mr-test-output.txt
 ```
-运行上述命令后，你就可以直接在[网站]((https://explainaboard.inspiredco.ai/systems))上看到你的结果，
+运行上述命令后，你就可以直接在[网站]((https://explainaboard.inspiredco.ai/systems))上看到你的结果 (
+或者直接进入[leaderboard榜单](https://explainaboard.inspiredco.ai/leaderboards?dataset=fudan_nlp&subdataset=movie_review)
+)
 以及更能帮助你的模型优点、不足之处的分析。
+* 提示：对于校验集(validation)的测试结果，你可以利用ExplainaBoard进行case analysis （通过点击柱形图种的每一个柱子）
 
 请结合ExplainaBoard提供的细粒度分析结果，提交简单的对模型进一步分析的报告，比如：
 * 模型的擅长处理哪一类样本？
