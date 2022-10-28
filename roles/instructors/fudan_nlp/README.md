@@ -12,7 +12,7 @@ in Windows](https://github.com/inspired-co/Inspired-walkthroughs/blob/main/roles
 Once you have set up an python (>=3.9) environment, one line to install ExplainaBoard Client
  
 ```shell script
-pip install explainaboard_client
+pip install explainaboard-client==0.0.8
 ```
 
 You can use the following command to test whether the package has been successfully installed in your
