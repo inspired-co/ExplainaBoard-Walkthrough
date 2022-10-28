@@ -12,7 +12,7 @@
 设置好 python(>=3.9) 环境后，只需一行即可安装 ExplainaBoard Client
  
 ```shell script
-pip install explainaboard_client
+pip install explainaboard-client==0.0.8
 ```
 
 您可以使用以下命令来测试是否已成功安装在您的机器上:
