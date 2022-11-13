@@ -18,6 +18,8 @@
 设置好 python(>=3.9) 环境后，只需一行即可安装 ExplainaBoard Client
  
 ```shell script
+pip install --upgrade pip
+pip uninstall explainaboard_client
 pip install --upgrade --force-reinstall explainaboard_client==0.0.10
 ```
 
@@ -51,6 +53,7 @@ python -m explainaboard_client.__main__
 export EB_USERNAME="[your username]"
 export EB_API_KEY="[your API key]"
 ```
+注意: `EB_USERNAME` 是自己的注册邮箱
 
 
 下面是一个上传系统名为`baseline`的模型，其[结果文件](./data/conll2003/result.json)为json格式。
@@ -70,6 +73,8 @@ python -m explainaboard_client.cli.evaluate_system \
 注意：
 * 请把`fudan_studentid_baseline` 中的`studentid` 改为你的学生id。
 * `fudan_studentid_baseline` 中的 `baseline`可以为任意名字
+* 别忘记在shared-users里添加助教和授课老师的邮箱
+
 
 你也可以把你的系统输出文件打印成conll格式的[结果文件](./data/conll2003/result.txt)，那么，提交命令如下：
 
