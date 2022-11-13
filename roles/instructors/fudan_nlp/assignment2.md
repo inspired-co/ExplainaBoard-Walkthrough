@@ -67,6 +67,9 @@ python -m explainaboard_client.cli.evaluate_system \
   --shared-users blzhu20@fudan.edu.cn xjhuang@fudan.edu.cn \
   --source-language eng
 ```
+注意：
+* 请把`fudan_studentid_baseline` 中的`studentid` 改为你的学生id。
+* `fudan_studentid_baseline` 中的 `baseline`可以为任意名字
 
 你也可以把你的系统输出文件打印成conll格式的[结果文件](./data/conll2003/result.txt)，那么，提交命令如下：
 
