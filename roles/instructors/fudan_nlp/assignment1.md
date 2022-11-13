@@ -30,7 +30,7 @@ python -m explainaboard_client.__main__
 * 每一行代表一个预测标签(positive 或者 negative)
 * 行数应等于测试或验证集中的样本数。
 
-这里有个[样例](./data/mr-test-baseline.txt)。
+这里有个[样例](./data/mr/mr-test-baseline.txt)。
 
 
 
